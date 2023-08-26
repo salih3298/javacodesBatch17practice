@@ -7,16 +7,17 @@ public class Dog {
     char gender;
     int age;
     double weight;
-    void eat() {
-        System.out.println("Eating meat and bones.....");
-    }
-    void bark (){
-        System.out.println("woff woff......");
-    }
-    void sleep (){
-        System.out.println("ZZZzzzzzZZZzzzz....");
+
+    void eat(){
+        System.out.println("Eating meat and bones...");
     }
 
+    void bark(){
+        System.out.println("woff woff.....");
+    }
+    void sleep(){
+        System.out.println("ZZZzzzZZZzzzzz..");
+    }
 
 
 }

@@ -1,8 +1,8 @@
 package class12;
 
-public class Palindrome {
+public class T2Palindrome {
     void stringCheck() {
-        String word="salih";
+        String word="salihaygün";
         String reverse="";
         for (int i = word.length() - 1; i >= 0; i--) {
             reverse = reverse + word.charAt(i);

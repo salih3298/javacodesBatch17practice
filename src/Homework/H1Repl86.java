@@ -1,27 +1,18 @@
 package Homework;
 
-public class H1Repl86 {
+ class H1Repl86 {
+    String name;
+    int roll_no;
+
     public static void main(String[] args) {
-       int sum = 0;
+      //  Main obj = new Main();
+       // obj.roll_no = 2;
+      //  obj.name = "John";
+     //   System.out.println("Name is " + obj.name + " and roll number is " + obj.roll_no);
+    }
+    }
 
 
-        int[][] a = {
-                {-5,-2,-3,7},
-                {1,-5,-2,2},
-                {1,-2,3,-4}
-        };
 
-        for (int row=0; row<a.length; row+=2) {
-            for (int col=0; col<a[row].length; col+=2){
-                sum=sum+a[row][col]; {
-
-                }
-                }
-        }
-        System.out.println(sum);
-
-        }
-
-        }
 
 

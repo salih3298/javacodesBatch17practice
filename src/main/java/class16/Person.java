@@ -1,20 +1,41 @@
 package class16;
 
 public class Person {
-
     private String name;
     private int age;
     private double weight;
     private char gender;
+    private int salary;
+    private String hairColor;
 
-    public Person(String pName, int pAge, double pWeight, char pGender) {
-        name = pName;
-        age = pAge;
-        weight = pWeight;
-        gender = pGender;
+    public Person() {
+    }
+
+    public Person(String name, int age, double weight) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+    }
+
+    public Person(String name, int age, double weight, char gender) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.gender = gender;
+    }
+
+    public Person(String name, int age, double weight, char gender, int salary, String hairColor) {
+       /* this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.gender = gender; */
+        this(name, age, weight, gender); // instead of writing all simply by writing this(...) we can call variables
+        this.salary = salary;
+        this.hairColor = hairColor;
     }
 
     public void printInfo() {
-        System.out.println(name + " " + age + " " + weight + " " + gender);
+        String name = "Giu";
+        System.out.println(this.name + " " + age + " " + weight + " " + gender + " " + salary + " " + hairColor);
     }
 }

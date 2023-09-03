@@ -6,5 +6,9 @@ public class PersonTester {
                 115, 'M');
         p1.printInfo();
 
+        Person p2 = new Person();
+        p2.printInfo();
+
+
     }
 }

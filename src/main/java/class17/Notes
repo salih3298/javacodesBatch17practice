@@ -24,5 +24,23 @@ Types of Inheritance:
     3) Multilevel
     4) Hybrid
     5) Multiple (It is not supported by java)
-Single Inheritance:
-    Only one parent and only one child (Not very common)
+1) Single Inheritance:
+    Only one parent and only one child (Not very common).
+2) Hierarchical:
+    One parent multiple child.
+
+3) Multilevel
+    Multilevel Inheritance happens when a class C
+    inherits from B and B inherits from class A.
+
+4) Hybrid
+    Hybrid is a mixture of Hierarchical and Multilevel.
+
+5) Multiple
+    Multiple parent classes and one child child class.
+What is Diamond problem in OOP?
+   The ambiguity that arises when two classes B and C inherit
+   from A, and a further class D inherits from both B and C,
+   so that if there is a method in A that B and/or C
+   has overridden, and D does not override it, it is
+   unclear which version of the method D should inherit.

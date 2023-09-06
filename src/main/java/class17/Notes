@@ -1,0 +1,28 @@
+Inheritance
+    Inheritance allows one class to have all the properties and
+    methods from another class except private members and constructors.
+    We use extends keyword.
+Why should we learn about inheritance:
+    1)Faster development
+    2)Saves space
+
+Syntax:
+    class Parent {
+
+    }
+
+    class Child extends Parent {
+    }
+
+Rules:
+    1) Private members (fields amd methods) are not accessible in child classes.
+    2) Constructors are also no available for child classes directly.
+
+Types of Inheritance:
+    1) Single Inheritance
+    2) Hierarchical
+    3) Multilevel
+    4) Hybrid
+    5) Multiple (It is not supported by java)
+Single Inheritance:
+    Only one parent and only one child (Not very common)

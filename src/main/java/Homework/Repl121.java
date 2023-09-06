@@ -11,7 +11,6 @@ public class Repl121 {
         this.var2=var2;
         this.var3=var3;
     }
-
     void printInfo (){
         System.out.println(var1);
         System.out.println(var2);

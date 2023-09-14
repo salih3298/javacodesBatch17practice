@@ -1,5 +1,7 @@
 package Homework;
 
+import java.util.Scanner;
+
 public class H1Repl35 {
     public static void main(String[] args) {
   /*For you to do:**
@@ -13,6 +15,25 @@ public class H1Repl35 {
    **Output:**
      The eligibility is ____*/
 
+        Scanner input = new Scanner(System.in);
+        System.out.println("Do you need a loan?");
+        boolean loan = input.nextBoolean();
+
+        if (loan) {
+            System.out.println("What is your credit score?");
+            int score = input.nextInt();
+            if (score < 600) {
+                System.out.println("The eligibility is Not eligible");
+            } else if (score >= 600 && score <= 700) {
+                System.out.println("The eligibility is Maybe eligible");
+            } else if (score > 700 && score <= 800) {
+                System.out.println("The eligibility is Eligible");
+            } else {
+                System.out.println("The eligibility is Definitely eligible");
+            }
+        } else {
+            System.out.println("The eligibility is Unknown");
+        }
 
 
     }

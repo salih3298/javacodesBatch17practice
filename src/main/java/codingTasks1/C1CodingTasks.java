@@ -1,4 +1,4 @@
-package codingTasks;
+package codingTasks1;
 
 import java.util.Arrays;
 import java.util.Scanner;

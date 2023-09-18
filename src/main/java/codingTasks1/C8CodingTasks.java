@@ -1,4 +1,4 @@
-package codingTasks;
+package codingTasks1;
 
 public class C8CodingTasks {
     public static void main(String[] args) {

@@ -19,8 +19,8 @@ class H1Repl87 {
     String carMake;
 
     public static void main(String[] args) {
-        Homework.H1Repl877 car1 = new Homework.H1Repl877();
-        Homework.H1Repl877 car2 = new Homework.H1Repl877();
+        Homework.H1Repl87 car1 = new Homework.H1Repl87();
+        Homework.H1Repl87 car2 = new Homework.H1Repl87();
 
         car1.carColor = "Black";
         car1.carYear = 2019;

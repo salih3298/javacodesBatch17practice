@@ -11,23 +11,23 @@ public class T3 {
         words.add("table");
         words.add("TV");
 
-words.removeIf((String x)->{
+
+
+        words.removeIf((String x)->{
+            if (x.endsWith("e")){
+                return true;
+            }else {
+                return false;
+            }
+        });
+    /*words.removeIf((String x)->{
     if (x.endsWith("e")) {
         return true;
     } else {
         return false;
     }
-        });
+        });*/
         System.out.println(words);
-
-
-
-
-
-
-
-
-
      /*   for (int i = 0; i < words.size(); i++) {
 
             if(words.get(i).endsWith("e")){

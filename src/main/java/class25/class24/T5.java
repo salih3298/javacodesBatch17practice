@@ -16,6 +16,16 @@ public class T5 {
         fruit.add("Apple");
         fruit.add("Watermelon");
         fruit.add("Peach");
+
+        fruit.removeIf(x->x.contains("a") || x.endsWith("e"));
+        System.out.println(fruit);
+
+
+
+
+
+
+
         fruit.removeIf(d->d.contains("a")||d.endsWith("e"));
         System.out.println(fruit);
 

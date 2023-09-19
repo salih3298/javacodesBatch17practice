@@ -23,7 +23,7 @@ public class C10CodingTasksMarks {
     }
 
     class A extends C10CodingTasks {
-        public A(9)
+        //public A(9);
 
     }
 

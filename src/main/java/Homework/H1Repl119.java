@@ -19,17 +19,11 @@ class H1Repl119 {
     public static String censorLetter(String word, char b) {
         String neWord = word.replace(b, '*');
         return neWord;
-
     }
-
-
     public static void main(String[] args) {
         System.out.println(censorLetter("computer science", 'e'));
         System.out.println(censorLetter("trick or treat", 't'));
-
     }
-
-
 }
 
 

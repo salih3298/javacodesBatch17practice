@@ -1,6 +1,6 @@
 package review10;
 
-public class Car implements WashAble{
+public class  Car implements WashAble{
     public  void drive(){
         System.out.println("driving........");
     }

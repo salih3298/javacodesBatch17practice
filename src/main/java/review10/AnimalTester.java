@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class AnimalTester {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
        /* Animal animal = new Animal();
         animal.speak();
         animal.eat();
@@ -42,7 +42,9 @@ public class AnimalTester {
             w.manage().window().maximize();
             w.get("https://www.amazon.com");
             System.out.println(w.getTitle());
-            w.quit();
+            Thread.sleep(3000);
+            //w.close();     close current tab
+            w.quit();     //close all tabs
         }
 
     }

@@ -16,6 +16,7 @@ public class T2ArrayList {
         System.out.println(aList);
         LinkedHashSet<String> set = new LinkedHashSet<>(aList);
         aList.clear();
+        System.out.println(aList);
         aList.addAll(set);
         System.out.println(aList);
 

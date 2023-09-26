@@ -13,8 +13,70 @@ Create an Object of the child class by passing String value "Vienna"
 
 Vienna
 */
-interface H1Repl177 {
-
+public interface H1Repl177 {
+    void display();
 
 }
 
+interface Functions extends H1Repl177 {
+
+    double adding(double firstNumber, double secondNumber);
+
+    double subtracting(double firstNumber, double secondNumber);
+
+    double multiply(double firstNumber, double secondNumber);
+
+    double dividing(double firstNumber, double secondNumber);
+
+    void display();
+}
+
+class MmMain implements Functions {
+
+
+    @Override
+    public double adding(double firstNumber, double secondNumber) {
+        return firstNumber + secondNumber;
+    }
+
+    @Override
+    public double subtracting(double firstNumber, double secondNumber) {
+        return firstNumber - secondNumber;
+    }
+
+    @Override
+    public double multiply(double firstNumber, double secondNumber) {
+        return firstNumber * secondNumber;
+    }
+
+    @Override
+    public double dividing(double firstNumber, double secondNumber) {
+        return firstNumber / secondNumber;
+    }
+    @Override
+    public void display() {
+        System.out.println("Result is ::: ");
+    }
+
+    public static void main(String[] args) {
+
+        double firstNumber = 100.00;
+        double secondNumber = 20.00;
+
+
+        MmMain m = new MmMain();
+
+        double addResult = m.adding(firstNumber, secondNumber);
+        double subResult = m.subtracting(firstNumber, secondNumber);
+        double mulResult = m.multiply(firstNumber, secondNumber);
+        double divResult = m.dividing(firstNumber, secondNumber);
+
+       // System.out.println();
+       // m.display();
+        System.out.println(addResult);
+
+    }
+
+
+
+}

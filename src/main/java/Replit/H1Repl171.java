@@ -31,7 +31,7 @@ class Main extends H1Repl171 {
     }
 
     public static void main(String[] args) {
-        MainMAAA m=new MainMAAA();
+     //   MainMAAA m=new MainMAAA();
        // m.m1();
       //  m.m1("a");
 

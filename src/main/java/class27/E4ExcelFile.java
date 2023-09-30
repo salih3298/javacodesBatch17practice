@@ -1,5 +1,7 @@
 package class27;
 
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -13,8 +15,10 @@ public class E4ExcelFile {
         String path = "C:\\Users\\salih\\IdeaProjects\\gitProjects\\SDET Batch 17\\Files\\Employees.xlsx";
         FileInputStream fis = new FileInputStream(path);
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
-        Sheet sheet1=workbook.getSheet("Sheet1");
-
+        Sheet sheet=workbook.getSheet("Sheet1");
+        Row row=sheet.getRow(1);
+        Cell cell=row.getCell(2);
+        System.out.println(cell);
 
     }
 }

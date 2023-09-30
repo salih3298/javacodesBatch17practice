@@ -1,0 +1,20 @@
+package class27;
+
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class E4ExcelFile {
+    public static void main(String[] args) throws IOException {
+
+        String path = "C:\\Users\\salih\\IdeaProjects\\gitProjects\\SDET Batch 17\\Files\\Employees.xlsx";
+        FileInputStream fis = new FileInputStream(path);
+        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        Sheet sheet1=workbook.getSheet("Sheet1");
+
+
+    }
+}

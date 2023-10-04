@@ -15,28 +15,34 @@ public class H1Repl192 {
     public static void main(String[] args) {
 
         LinkedList<Integer> linkedList = new LinkedList<>();
-        linkedList.add(2);
-        linkedList.add(3);
+        // linkedList.add(2);
+        for (int i = 2; i < 100; i++) {
+            if (isPrime(i))
+                linkedList.add(i);
 
+        }
+
+        System.out.println(linkedList);
     }
-}
 
-  /*  boolean primeNumber(int number) {
+    private static boolean isPrime(int number) {
         if (number <= 1) {
             return false;
         }
 
-        if (number <= 3) {
-            return true;
-        }
-
-        if (number % 2 == 0 || number % 3 == 0) {
-            return false;
-        }
-
-        for (int i = 5; i * i <= number; i += 6) {
-            if (number % i == 0 || number % (i + 2) == 0) {
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
                 return false;
             }
         }
-*/
+
+        return true;
+    }
+
+
+}
+
+
+
+
+

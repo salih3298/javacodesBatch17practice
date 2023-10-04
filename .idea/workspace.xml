@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f4f78b-e3c1-4c9b-abf1-714a511ac613" name="Changes" comment="GitHub">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Replit/H1Repl195.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Replit/H1Repl196.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Replit/H1Repl197.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Replit/H1Repl198.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Replit/H1Repl199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/class28/E1ExcelFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/class28/E2ListOfMaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Employees.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Employees.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Replit/H1Repl192.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Replit/H1Repl192.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/class27/E4ExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/class27/E4ExcelFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Replit/H1Repl192.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Replit/H1Repl192.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/class27/E4ExcelFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/class27/E4ExcelFile.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +35,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2W7zCfJvAVJyjVYUbg1x3EjSa32" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -38,7 +51,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/salih/IdeaProjects/gitProjects/SDET Batch 17/Files"
+    "last_opened_file_path": "C:/Users/salih/IdeaProjects/gitProjects/SDET Batch 17"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -49,16 +62,18 @@
       <recent name="C:\Users\salih\IdeaProjects\gitProjects\SDET Batch 17\Files" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Replit" />
+      <recent name="class28" />
       <recent name="class27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E4ExcelFile">
-    <configuration name="E1ConfigReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class27.E1ConfigReader" />
+  <component name="RunManager" selected="Application.H1Repl196">
+    <configuration name="E1ExcelFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class28.E1ExcelFile" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="class28.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E3ConfigProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class27.E3ConfigProperties" />
+    <configuration name="H1Repl195" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replit.H1Repl195" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="Replit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +94,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E4ExcelFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class27.E4ExcelFile" />
+    <configuration name="H1Repl196" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replit.H1Repl196" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class27.*" />
+          <option name="PATTERN" value="Replit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="H1Repl198" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replit.H1Repl198" />
+      <module name="SDETBatch17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Replit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="H1Repl199" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replit.H1Repl199" />
+      <module name="SDETBatch17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Replit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,9 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.E4ExcelFile" />
-        <item itemvalue="Application.E3ConfigProperties" />
-        <item itemvalue="Application.E1ConfigReader" />
+        <item itemvalue="Application.H1Repl196" />
+        <item itemvalue="Application.H1Repl199" />
+        <item itemvalue="Application.H1Repl198" />
+        <item itemvalue="Application.H1Repl195" />
+        <item itemvalue="Application.E1ExcelFile" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696100543735</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GitHub">
+      <option name="closed" value="true" />
+      <created>1696100760246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696100760246</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

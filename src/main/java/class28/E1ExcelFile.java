@@ -1,16 +1,14 @@
-package class27;
+package class28;
 
-import org.apache.poi.ss.formula.functions.Column;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class E4ExcelFile {
+public class E1ExcelFile {
     public static void main(String[] args) throws IOException {
         //Location of the file
         String path = "C:\\Users\\salih\\IdeaProjects\\gitProjects\\SDET Batch 17\\Files\\Employees.xlsx";
@@ -20,12 +18,13 @@ public class E4ExcelFile {
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         //Accessing the sheet from the xlsx file
         Sheet sheet = workbook.getSheet("Sheet1");
-        // gives us the row at index 1
-        Row row = sheet.getRow(1);
-        //Gives us the column/cell at index number 2
-        Cell cell = row.getCell(2);
-        System.out.println(cell);
-
-
+        for (int i = 0; i < sheet.getPhysicalNumberOfRows(); i++) {
+            //getting all of the rows one by one and placing them inside the row variable
+            Row row = sheet.getRow(i);
+            for (int j = 0; j < row.getPhysicalNumberOfCells(); j++) {
+                System.out.print(row.getCell(j) + " ");
+            }
+            System.out.println();
+        }
     }
 }

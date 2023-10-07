@@ -13,9 +13,14 @@ public class E7ArrayList {
         fruit.add("Banana");
         fruit.add("Cherry");
         fruit.add("Apple");
-
-
-
+        fruit.replaceAll(x -> {
+            if (x.contains("a")) {
+                return "water";
+            } else {
+                return x;
+            }
+        });
+        System.out.println(fruit);
 
 
     }

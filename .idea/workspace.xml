@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f4f78b-e3c1-4c9b-abf1-714a511ac613" name="Changes" comment="GitHub">
-      <change afterPath="$PROJECT_DIR$/src/main/java/class29/E1Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/class29/E2Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/class29/E3Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/class29/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/class29/E4Exceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/class29/E3Exceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/class29/E3Exceptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +60,7 @@
       <recent name="class27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E3Exceptions">
+  <component name="RunManager" selected="Application.E4Exceptions">
     <configuration name="E2Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="class29.E2Exceptions" />
       <module name="SDETBatch17" />
@@ -89,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E6ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="review11.E6ArrayList" />
+    <configuration name="E4Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="class29.E4Exceptions" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="review11.*" />
+          <option name="PATTERN" value="class29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E4Exceptions" />
         <item itemvalue="Application.E3Exceptions" />
         <item itemvalue="Application.E2Exceptions" />
         <item itemvalue="Application.E8ArrayList" />
         <item itemvalue="Application.E7ArrayList" />
-        <item itemvalue="Application.E6ArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696685682837</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="GitHub">
+      <option name="closed" value="true" />
+      <created>1696691445826</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696691445826</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,6 +250,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="3" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/class28/E3ExcelFile.java</url>

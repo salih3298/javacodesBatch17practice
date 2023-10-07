@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f4f78b-e3c1-4c9b-abf1-714a511ac613" name="Changes" comment="GitHub">
-      <change afterPath="$PROJECT_DIR$/src/main/java/review11/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review11/E1WrapperClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review11/E2ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review11/E3ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review11/E4ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review11/E5ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review11/E6ArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,18 +57,19 @@
       <recent name="C:\Users\salih\IdeaProjects\gitProjects\SDET Batch 17\Files" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="review11" />
       <recent name="Replit" />
       <recent name="class28" />
       <recent name="class27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.H1Repl208">
-    <configuration name="E1Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class26.E1Maps" />
+  <component name="RunManager" selected="Application.E6ArrayList">
+    <configuration name="E2ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review11.E2ArrayList" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class26.*" />
+          <option name="PATTERN" value="review11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H1Repl205" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Replit.H1Repl205" />
+    <configuration name="E3ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review11.E3ArrayList" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Replit.*" />
+          <option name="PATTERN" value="review11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H1Repl206" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Replit.H1Repl206" />
+    <configuration name="E4ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review11.E4ArrayList" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Replit.*" />
+          <option name="PATTERN" value="review11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H1Repl207" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Replit.H1Repl207" />
+    <configuration name="E5ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review11.E5ArrayList" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Replit.*" />
+          <option name="PATTERN" value="review11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H1Repl208" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Replit.H1Repl208" />
+    <configuration name="E6ArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review11.E6ArrayList" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Replit.*" />
+          <option name="PATTERN" value="review11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.H1Repl208" />
-        <item itemvalue="Application.H1Repl207" />
-        <item itemvalue="Application.H1Repl206" />
-        <item itemvalue="Application.E1Maps" />
-        <item itemvalue="Application.H1Repl205" />
+        <item itemvalue="Application.E6ArrayList" />
+        <item itemvalue="Application.E5ArrayList" />
+        <item itemvalue="Application.E4ArrayList" />
+        <item itemvalue="Application.E3ArrayList" />
+        <item itemvalue="Application.E2ArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696612243387</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="GitHub">
+      <option name="closed" value="true" />
+      <created>1696623377016</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696623377016</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

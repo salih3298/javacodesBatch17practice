@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46f4f78b-e3c1-4c9b-abf1-714a511ac613" name="Changes" comment="GitHub">
-      <change afterPath="$PROJECT_DIR$/src/main/java/review12/E3Maps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review12/E4Maps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review12/E5Maps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review12/E6Maps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review12/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review12/MethodTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/review12/Methods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,14 +58,14 @@
       <recent name="C:\Users\salih\IdeaProjects\gitProjects\SDET Batch 17\Files" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="review12" />
       <recent name="class29" />
       <recent name="review11" />
       <recent name="Replit" />
       <recent name="class28" />
-      <recent name="class27" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E3Maps">
+  <component name="RunManager" selected="Application.E6Maps">
     <configuration name="E3Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="review12.E3Maps" />
       <module name="SDETBatch17" />
@@ -73,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E4Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class29.E4Exceptions" />
+    <configuration name="E4Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review12.E4Maps" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class29.*" />
+          <option name="PATTERN" value="review12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E5Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class29.E5Exceptions" />
+    <configuration name="E5Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review12.E5Maps" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class29.*" />
+          <option name="PATTERN" value="review12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E6Exceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class29.E6Exceptions" />
+    <configuration name="E6Maps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="review12.E6Maps" />
       <module name="SDETBatch17" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class29.*" />
+          <option name="PATTERN" value="review12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E6Maps" />
+        <item itemvalue="Application.E5Maps" />
+        <item itemvalue="Application.E4Maps" />
         <item itemvalue="Application.E3Maps" />
         <item itemvalue="Application.E7Exceptions" />
-        <item itemvalue="Application.E6Exceptions" />
-        <item itemvalue="Application.E5Exceptions" />
-        <item itemvalue="Application.E4Exceptions" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696692075618</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="GitHub">
+      <option name="closed" value="true" />
+      <created>1696953204231</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696953204231</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
